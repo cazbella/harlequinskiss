@@ -1,0 +1,14 @@
+.gigs-section {
+    padding: 2rem 0;
+    background-color: #333;
+  }
+  
+  .gig-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .gig-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #444;
+  }

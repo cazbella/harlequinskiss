@@ -1,0 +1,14 @@
+.banner {
+    height: 400px;
+    background: url('/path-to-image.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+  }
+  
