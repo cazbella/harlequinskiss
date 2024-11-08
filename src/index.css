@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #524d4d, #981602 70%, #524d4d);
+  background: linear-gradient(to right, #981602, #171515 50%, #981602);
   /* Ensure this path is correct if you uncomment it
   background-image: url('/background.webp');
   background-size: cover;

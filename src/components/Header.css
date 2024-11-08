@@ -1,16 +1,26 @@
 .header {
-    background-color: #222;
-    padding: 1rem 0;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    gap: 2rem;
-  }
-  
-  .nav-links a {
-    color: #ffcc00;
-    font-weight: bold;
-  }
+  background-color: black;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  color: #ffcc00;
+  font-weight: bold;
+  font-family: 'Pacific', cursive; /* Use Lobster font */
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.nav-links a:hover {
+  color: #fff;
+}

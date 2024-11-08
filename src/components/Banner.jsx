@@ -1,11 +1,13 @@
 import React from 'react';
-import '../assets/images/HK_Diamond_BlackBG.png';
+import SquareLogo from '../assets/images/square_logo.png';
+// import '../assets/images/secondImage.png'; 
+import './Banner.css';
 
 const Banner = () => (
   <section className="banner">
     <div className="banner-content">
-      <h1>Welcome to the Band Site</h1>
-      <p>Catch us live at a venue near you!</p>
+      <img src={SquareLogo} alt="First Image" className="banner-image" />
+      {/* <img src="../assets/images/secondImage.png" alt="Second Image" className="banner-image" /> */}
     </div>
   </section>
 );

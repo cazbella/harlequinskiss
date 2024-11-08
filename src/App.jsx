@@ -11,6 +11,7 @@ import Banner from './components/Banner';
 import GigList from './components/GigList';
 import Footer from './components/Footer';
 import SocialHeader from './components/SocialHeader';
+import FacebookFeed from './components/FacebookFeed';
 
 // import backgroundImage from './assets/images/background.webp';
 
@@ -26,8 +27,10 @@ const App = () => (
   <div>
     <SocialHeader />
     <div className="main-content">
-      <Header />
       <Banner />
+      <Header />
+      <FacebookFeed />
+
       <GigList />
       <Footer />
     </div>

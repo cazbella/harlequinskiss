@@ -1,14 +1,23 @@
 .banner {
-    height: 400px;
-    background: url('/path-to-image.jpg') center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .banner-content {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px; /* Adjust this to match the height of your fixed header */
+  padding-bottom: 20px;
+  background-color: #000; /* Adjust according to your design */
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure the content spans the full width */
+}
+
+.banner-image {
+  width: 30%; /* Adjust the size of the image */
+  max-width: 300px; /* Ensure it doesn't grow too large */
+  height: auto; /* Maintain aspect ratio */
+}
