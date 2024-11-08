@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/images/square_logo.png';
+import '../assets/images/HK_Diamond_BlackBG.png';
 
 const Banner = () => (
   <section className="banner">

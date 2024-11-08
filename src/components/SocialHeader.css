@@ -1,0 +1,27 @@
+.social-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; /* Match your preferred background color */
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    border: none; /* Remove borders */
+    margin-bottom: 20px !important; 
+  }
+  
+  .social-header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px; /* Adjust these values to increase spacing between icons */
+    margin-top: 10px !important; /* Add more space above the icons */
+    margin-bottom: -10px;
+    color: white;
+  }
+  
